@@ -1,0 +1,46 @@
+@media(max-width:768px)  {
+    p {
+        font-size: 16px;
+    }
+    
+    .box {
+        width: 1000px;
+        height: 100px ;
+        background-color: red;
+    }
+}
+@media(min-width:768px) {
+    p {
+        font-size: 25px;
+    }
+
+    .box {
+         width: 1000px;
+        height: 100px ;
+        background-color: green;
+    }
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+}
+@media(orientation: default) {
+    p {
+        font-size: 16px;
+    }
+    
+    .box {
+        width: 1000px;
+        height: 100px ;
+        background-color: red;
+    }
+}
+@media(min-size:500px) {
+    .box1 {
+        width :100px;
+        height:50px;
+        background-color: hotpink;
+    }
+}
+
